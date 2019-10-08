@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+body{
+  zoom: 67%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  background-color: red;
+  border: 50px solid black;
+  background-image: url("../imagenes/fondoup.png");
+  background-size: 500px;
+  background-position-x: 3000px;
+  background-position-y: -550px;
+}
+
+body > div {
+  margin: 0px auto;
+  text-align: center;
+  background-image: url("../imagenes/fondo.jpg");
+  background-size: 2000x;
+  background-position-x: 1900px;
+  background-position-y: 700px;
+}
+
+body > footer {
+  text-align: center;
+  background-image: url("../imagenes/fondo2.jpg");
+  background-size: 2000x;
+  background-position-x: 1900px;
+  background-position-y: 700px;
+}
+.tile {
+  /* Indica dimensiones */
+  width: 50px;
+  height: 50px;
+
+ 
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+
+/* Pacman no se puede mover atravez de las paredes.  */
+
+.wall {
+  background-color: blue;
+  border: 2px solid cornflowerblue;
+}
+
+.coin {
+  background-color: yellow;
+  border-radius: 50%;
+  transform: scale(0.3);
+
+}
+.ghostb {
+  background-image: url("../imagenes/fantro.png");
+  background-size: 47px;
+  background-position-x: 50px;
+  background-position-y: 1px;
+}
+
+.ghostc {
+  background-image: url("../imagenes/fantc.png");
+  background-size: 47px;
+  background-position-x: 50px;
+  background-position-y: 1px;
+}
+
+.ghostd {
+  background-image: url("../imagenes/fantr.png");
+  background-size: 47px;
+  background-position-x: 50px;
+  background-position-y: 1px;
+}
+
+.ghosta {
+  background-image: url("../imagenes/fanta.png");
+  background-size: 47px;
+  background-position-x: 50px;
+  background-position-y: 1px;
+}
+.pacman {
+  background-image: url("../imagenes/gefe1.gif");
+  background-size: 150px;
+  background-position-x: 400px;
+  background-position-y: 82px;
+}
+
